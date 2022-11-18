@@ -18,6 +18,7 @@ XAMPP Fixer performs the following actions:
 * Renames `\xampp\mysql\data` to `\xampp\mysql\data-temp`.
 * Copies `\xampp\mysql\backup` to `\xampp\mysql\data`.
 * Moves required database files from `\xampp\mysql\data-temp` back to `\xampp\mysql\data`, excluding a few files, such as `mysql`, `performance_schema`, `phpmyadmin`, and `test`.
+* Deletes the temporary directory `\xampp\mysql\data-temp`
 
 # Why not do this manually?
 I've done this manually each time XAMPP broke, but after some time it gets repetitive, so I've created this script.

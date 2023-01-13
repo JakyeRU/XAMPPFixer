@@ -98,6 +98,9 @@ namespace XAMPPFixer
             AnsiConsole.MarkupLine($"[green][[INFO]][/] Deleted [green]{mysql_path}\\data-temp[/]");
 
             AnsiConsole.MarkupLine(finishLogo);
+
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         private static bool Prompt(string prompt)
